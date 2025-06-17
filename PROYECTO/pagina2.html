@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice de Neuromarketing</title>
+    <style>
+        body {
+            background: linear-gradient(to right, rgb(45, 45, 68), rgb(30, 30, 48));
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            color: rgba(255, 255, 255, 0.9);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contenedor {
+            width: 90%;
+            max-width: 600px;
+        }
+
+        h2 {
+            font-family: fantasy;
+             color: linear-gradient(to right,  rgb(129, 97, 129), rgb(255, 254, 255));
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgb(245, 245, 245);
+            border-radius: 10px;
+            overflow: scroll;  
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        th, td {
+            border: 1px solid rgb(0, 0, 0);
+            padding: 10px;
+            text-align: left;
+            display: block;
+            width: 100%;
+        }
+
+        th {
+            background: linear-gradient(to right, rgb(61, 0, 102), rgb(40, 0, 80));
+         font-family: Tahoma;
+            color: rgb(0, 160, 255);
+        }
+
+        td {
+            background: linear-gradient(to right, rgba(4, 90, 251, 0.627), rgba(4, 70, 200, 0.7));
+        }
+
+        img {
+            width: 115px;
+            transition: transform 0.3s ease; /* Efecto al pasar el ratonazo */
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+ /* Donde contengo mi imagen */
+        .imagen-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* lo que hizo que fuera mas adaptable en pantallas pequeñas */
+        @media (max-width: 600px) {
+            table {
+                display: block;
+                overflow-x: auto;
+                width: 100%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h2>INDEX NEUROMARKETING</h2>
+        <table>
+            <tr>
+                <th>CATEGORÍAS</th>
+                <th>CONTENIDO</th>
+            </tr>
+            <tr>
+                <td>Tipos</td>
+                <td>
+                    <ol>
+                        <li><a href="mi informacion.html#Auditivo" target="frmDerecho">Neuromarketing auditivo</a></li>
+                        <li><a href="mi informacion.html#Visual" target="frmDerecho">Neuromarketing visual</a></li>
+                        <li><a href="mi informacion.html#Emocional" target="frmDerecho">Neuromarketing emocional</a></li>
+                        <li><a href="mi informacion.html#Kinestesico" target="frmDerecho">Neuromarketing kinestésico</a></li>
+                        <li><a href="mi informacion.html#Historia" target="frmDerecho">Neuromarketing de historia</a></li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Aspectos Claves</td>
+                <td>
+                    <ul style="list-style-type: disc;">
+                        <li><a href="mi informacion.html#Anclaje" target="frmDerecho">El efecto de anclaje</a></li>
+                        <li><a href="mi informacion.html#Sesgos cognitivos" target="frmDerecho">Sesgos cognitivos en marketing</a></li>
+                        <li><a href="mi informacion.html#Emociones" target="frmDerecho">Neuromarketing y emociones</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="imagen-container">
+        <a href="pagina3.html" target="_top">
+            <img src="C:\Users\Admin\Downloads\pngegg-removebg-preview.png" alt="Regresar">
+        </a>
+    </div>
+</body>
+</html>
